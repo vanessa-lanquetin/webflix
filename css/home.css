@@ -1,0 +1,52 @@
+#home {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#video-main{
+  width: 100%;
+  filter: grayscale(100%);
+}
+#video-main:hover{
+  filter: grayscale(0);
+}
+#container-video-main{
+  height: 610px;
+  overflow: hidden;
+}
+#home nav{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.row{
+    display: flex;
+}
+
+#home .row{
+  margin-top: 10px;
+}
+
+.row div{
+  width: 100%;
+}
+.pl-5{
+  padding-left: 50px;
+}
+
+button i{
+  margin-right: 5px;
+}
+
+.row img{
+  filter: grayscale(100%)
+}
+.row img:hover{
+  filter: grayscale(0);
+}
